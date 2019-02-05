@@ -14,7 +14,9 @@ scheck = np.zeros(128)
 oddnum=False;#홀수개인 문자 등장
 permutation=True
 
+
 #공백 제거 및 대소문자 맞추기
+
 inputstring = input("입력 : ")
 inputstring = inputstring.replace(" ", "")
 inputstring = inputstring.lower()

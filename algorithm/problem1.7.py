@@ -22,13 +22,13 @@ for i in range (n):
 	for j in range(n): 
 		a[i][j]=randint(1,100)
 
-#오른쪽으로 회전
+#왼쪽으로 회전
 
 for i in range (n):
 	for j in range(n):
 		atr[i][j]=a[n-j-1][i]
 
-#왼쪽으로 회전
+#오른쪽으로 회전
 
 for i in range (n):
 	for j in range(n):

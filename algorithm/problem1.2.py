@@ -31,3 +31,21 @@ else:
 		print("순열관계입니다.")
 	else:
 		print("순열관계가 아닙니다.")
+
+'''
+import unittest
+from collections import Counter
+#counter모듈을 통해서 리스트에 있는 각 항목을 셀 수 있다.
+
+def check_permutation(str1, str2):
+    if len(str1) != len(str2):
+        return False
+    counter = Counter()
+    for c in str1:
+        counter[c] += 1
+    for c in str2:
+        if counter[c] == 0:
+            return False
+        counter[c] -= 1
+    return True
+'''
