@@ -113,11 +113,11 @@ class Linked_list:
 			self.d_size -= 1
 			return cur.data
 
+		#삭제 노드가 첫 번째 노드가 아닐 때
 		while cur.next:
 			bef = cur
 			cur = cur.next
-
-			#삭제 노드가 첫 번째 노드가 아닐 때
+			
 			if target == cur.data:
 				#삭제 노드가 마지막 노드일 때
 				if cur == self.tail:
